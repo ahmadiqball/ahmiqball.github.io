@@ -1,0 +1,84 @@
+.contacts {
+  background-image: linear-gradient(
+    61deg,
+    rgba(255, 134, 226, 1) 0%,
+    rgba(196, 47, 249, 1) 50%,
+    #59059d 100%
+  );
+  border-radius: 40px 40px 0 0;
+  padding: 5rem 5rem;
+  display: flex;
+  flex-direction: row;
+}
+
+.contacts img {
+  padding: 3rem;
+  width: 50%
+}
+
+.contacts h1 {
+  font-size: 3rem;
+  padding-bottom: 2rem;
+}
+
+.contacts-action {
+  flex-grow: 1;
+  padding: 3rem;
+
+}
+
+.contacts-form {
+  background-color: rgb(128, 128, 128, 0.4);
+  padding: 2rem;
+  border-radius: 10px;
+  border: 1px solid rgb(255, 255, 255, 0.8);
+}
+
+.contacts-choice {
+  text-align: left;
+  padding-left: 1rem;
+}
+
+.contacts-choice button {
+  width: 8rem;
+  height: 3rem;
+  background-color: transparent;
+  border-radius: 10px 10px 0 0;
+  border: 1px solid rgb(255, 255, 255, 0.8);
+  border-bottom: none;
+  margin-top: 1px;
+  color: white;
+  opacity: 0.8;
+}
+
+.choice-active {
+  opacity: 1 !important;
+  background-color: rgb(128, 128, 128, 0.4) !important;
+}
+
+@media (max-width: 1200px) {
+  .contacts img {
+    width: 40%
+  }
+}
+
+@media (max-width: 1200px) {
+  .contacts img {
+    width: 0;
+    padding: 0;
+    visibility: hidden;
+  }
+}
+
+
+
+@media (max-width: 768px) {
+  .contacts {
+    padding: 2rem 0;
+  }
+
+  .contacts-action {
+    width: 90%;
+    margin: 0 auto;
+  }
+}

@@ -1,0 +1,55 @@
+.emailform {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: left;
+    margin: 0 auto;
+    width: 80%;
+}
+
+.emailform input {
+    width: 100%;
+    height: 2.5rem;
+    background-color: rgba(255, 255, 255, 0.3);
+    border: 1px solid rgba(138, 138, 138, 0.8);
+    border-radius: 5px;
+}
+
+.emailform textarea {
+    width: 100%;
+    height: 10rem;
+    background-color: rgba(255, 255, 255, 0.3);
+    border: 1px solid rgba(138, 138, 138, 0.8);
+    border-radius: 5px;
+}
+
+.emailform label {
+    margin-top: 1rem;
+}
+
+.emailform-button {
+    margin: 1rem auto 0 auto;
+    background-color: rgb(255, 255, 255) !important;
+    opacity: 0.6;
+    width: 30% !important;
+    height: 3rem !important;
+    transition: 0.3s ease-in-out;
+}
+
+.emailform-button:hover {
+    opacity: 1;
+}
+
+.emailform input:focus, .emailform textarea:focus {
+    background: rgba(255, 255, 255, 0.6);
+    color: rgb(18, 18, 18, 0.8);
+  }
+  /* .emailform input::placeholder, .emailform textarea::placeholder {
+    font-size: 16px;
+    font-weight: 400;
+    color: #fff;
+  }
+  .emailform input:focus::placeholder, .emailform textarea:focus::placeholder {
+    color: #121212;
+    opacity: 0.8;
+  } */

@@ -1,0 +1,24 @@
+.projects-wrap {
+    padding: 3rem 0;
+    margin: 5rem auto;
+    width: 90%;
+}
+
+.projects-wrap p {
+    padding: 2rem 0;
+    margin: 0 auto;
+    width: 60%;
+    line-height: 1.6;
+}
+
+.projects-card {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+@media (max-width: 480px) {
+    .projects-wrap p {
+        width: 80%;
+    }
+}
