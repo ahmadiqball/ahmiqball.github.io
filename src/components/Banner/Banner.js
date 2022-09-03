@@ -9,16 +9,6 @@ const Banner = () => {
   const profText = ["Web Developer", "Data Scientist"];
   const period = 2000;
 
-  useEffect(() => {
-    let typer = setInterval(() => {
-      type();
-    }, delta);
-
-    return () => {
-      clearInterval(typer);
-    };
-  }, [text]);
-
   const type = () => {
     let idx = loopNum % profText.length;
     let fullText = profText[idx];
@@ -41,6 +31,16 @@ const Banner = () => {
       setDelta(500);
     }
   };
+
+  useEffect(() => {
+    let typer = setInterval(() => {
+      type();
+    }, delta);
+
+    return () => {
+      clearInterval(typer);
+    };
+  }, [text, delta]);
 
   return (
     <section className="banner" id="home">

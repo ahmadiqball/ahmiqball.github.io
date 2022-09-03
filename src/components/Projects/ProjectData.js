@@ -7,9 +7,18 @@ import image6 from '../../assets/img/projects/drum-kit.png';
 import image7 from '../../assets/img/projects/simon-game.png';
 import image8 from '../../assets/img/projects/landing-page.png';
 import image9 from '../../assets/img/projects/food-order.png';
+import image10 from '../../assets/img/projects/url-shortener.png';
 
 
 const ProjectData = [
+  {
+    projectId: "0000099",
+    projectName: "URL Shortener App",
+    projectType: "Front End",
+    projectDate: "August 2022",
+    projectLink: "https://ahmadiqball.github.io/url-shortener",
+    projectImg: image10
+  },
   {
     projectId: "0000009",
     projectName: "Food Order App",
